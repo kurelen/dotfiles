@@ -1,2 +1,51 @@
+window:
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: false
+  decoration: buttonless
 font:
-  size: 25.0
+  normal:
+    family: "Fira Code"
+    style: Regular
+  bold:
+    family: "Fira Code"
+    style: SemiBold
+  italic:
+    family: "Fira Code"
+    style: "Light Italic"
+  size: 17.0
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+# Colors (Everforest Dark)
+colors:
+  # Default colors
+  primary:
+    background: '0x2d353b'
+    foreground: '0xd3c6aa'
+
+  # Normal colors
+  normal:
+    black:   '0x475258'
+    red:     '0xe67e80'
+    green:   '0xa7c080'
+    yellow:  '0xdbbc7f'
+    blue:    '0x7fbbb3'
+    magenta: '0xd699b6'
+    cyan:    '0x83c092'
+    white:   '0xd3c6aa'
+
+  # Bright colors
+  bright:
+    black:   '0x475258'
+    red:     '0xe67e80'
+    green:   '0xa7c080'
+    yellow:  '0xdbbc7f'
+    blue:    '0x7fbbb3'
+    magenta: '0xd699b6'
+    cyan:    '0x83c092'
+    white:   '0xd3c6aa'

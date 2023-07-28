@@ -279,7 +279,7 @@ Note that this overrides the default font-related keybindings from
 =sensible-defaults=.
 
 #+begin_src emacs-lisp
-  (setq kurelen/default-fixed-font "Iosevka extended")
+  (setq kurelen/default-fixed-font "Fira Code")
   (setq kurelen/default-fixed-font-size 180)
   (setq kurelen/current-fixed-font-size kurelen/default-fixed-font-size)
   (set-face-attribute 'default nil
@@ -289,7 +289,7 @@ Note that this overrides the default font-related keybindings from
                       :family kurelen/default-fixed-font
                       :height kurelen/current-fixed-font-size)
 
-  (setq kurelen/default-variable-font "Libre Baskerville")
+  (setq kurelen/default-variable-font "Liberation")
   (setq kurelen/default-variable-font-size 180)
   (setq kurelen/current-variable-font-size kurelen/default-variable-font-size)
   (set-face-attribute 'variable-pitch nil
@@ -342,6 +342,8 @@ Note that this overrides the default font-related keybindings from
 
   (kurelen/reset-font-size)
 #+end_src
+
+#+RESULTS:
 
 ** Highlight the current line
 

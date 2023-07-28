@@ -1,7 +1,6 @@
 [capacity]
 command=echo `cat /sys/class/power_supply/BAT0/capacity`%
 interval=10
-color=#FF7B7B
 
 [time]
 command=date +%T
