@@ -103,6 +103,14 @@ Use =evil= with Org agendas.
     (evil-org-agenda-set-keys))
 #+end_src
 
+* Backup Files
+
+Use git to version files. 
+
+#+begin_src emacs-lisp
+  (setq make-backup-files nil)
+#+end_src
+
 * Utility functions
 
 Define a big ol' bunch of handy utility functions.
